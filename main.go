@@ -13,6 +13,5 @@ func main() {
 		fmt.Fprintf(w, "Hello World")
 	})
 
-	log.Fatal(http.ListenAndServe("http://13.90.147.154/:8081", nil))
+	log.Fatal(http.ListenAndServe(":8081", nil))
 }
-
